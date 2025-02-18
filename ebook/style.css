@@ -1,8 +1,8 @@
 
 /*
 Template Name: Kindle	
-Author: MarkUps
-Author URI: http://www.markups.io/
+autora: MarkUps
+autora URI: http://www.markups.io/
 Version: 1.0
 */
 
@@ -16,10 +16,10 @@ Version: 1.0
 #COUNTER
 #BOOK OVERVIEW
 #download REVIEW
-#AUTHOR
+#autora
 #PRICING
-#READERS TESTIMONIALS
-#CONTACT US
+#READERS depoimentos
+#contato US
 #FOOTER
 #RESPONSIVE STYLE
 */
@@ -509,62 +509,62 @@ button:focus {
 }
 
 /*--------------------*/
-/* AUTHOR */
+/* autora */
 /*--------------------*/
 
 
-#mu-author {
+#mu-autora {
 	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-author-area {
+.mu-autora-area {
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
 }
 
-.mu-author-content{
+.mu-autora-content{
 	display: inline;
 	float: left;
 	margin-top: 50px;
 	width: 100%;
 }
 
-.mu-author-image {
+.mu-autora-image {
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-author-info {
+.mu-autora-info {
 	display: inline;
 	float: left;
 	margin-top: 20px;
 	width: 100%;
 }
 
-.mu-author-info h3 {
+.mu-autora-info h3 {
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 }
 
-.mu-author-info p {
+.mu-autora-info p {
 	margin-bottom: 20px;
 }
 
-.mu-author-social {
+.mu-autora-social {
 	display: inline;
 	float: left;
 	margin-top: 25px;
 	width: 100%;
 }
 
-.mu-author-social a {
+.mu-autora-social a {
 	display: inline-block;
 	font-size: 16px;
 	padding: 5px;
@@ -685,10 +685,10 @@ button:focus {
 
 
 /*--------------------*/
-/* READERS TESTIMONIALS */
+/* READERS depoimentos */
 /*--------------------*/
 
-#mu-testimonials {
+#mu-depoimentos {
 	background-image: url("assets/images/depoimentos-bg.jpg");
 	background-position: center center;
 	background-size: cover;
@@ -699,7 +699,7 @@ button:focus {
 	width: 100%;
 }
 
-#mu-testimonials::before {
+#mu-depoimentos::before {
 	background: rgba(0,0,0,0.9);
 	bottom: 0;
 	content: '';
@@ -710,19 +710,19 @@ button:focus {
 	opacity: 0.84;
 }
 
-.mu-testimonials-area {
+.mu-depoimentos-area {
 	display: inline;
 	float: left;
 	padding: 150px 0 175px;
 	width: 100%;
 }
 
-.mu-testimonials-area h2 {
+.mu-depoimentos-area h2 {
 	color: #fff;
 	text-align: center;
 }
 
-.mu-testimonials-block {
+.mu-depoimentos-block {
 	display: inline;
 	float: left;
 	margin-top: 60px;
@@ -786,31 +786,31 @@ button:focus {
 }
 
 /*--------------------*/
-/* CONTACT US */
+/* contato US */
 /*--------------------*/
 
-#mu-contact {
+#mu-contato {
 	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-contact-area {
+.mu-contato-area {
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
 }
 
-.mu-contact-header {
+.mu-contato-header {
 	display: inline;
 	float: left;
 	text-align: center;
 	width: 100%;
 }
 
-.mu-contact-content {
+.mu-contato-content {
 	display: inline;
 	float: left;
 	margin-top: 50px;
@@ -818,11 +818,11 @@ button:focus {
 	padding: 0 20%;
 }
 
-.mu-contact-form {
+.mu-contato-form {
 	text-align: center;
 }
 
-.mu-contact-form .form-group input {
+.mu-contato-form .form-group input {
 	background: transparent;
 	color: #333;
 	font-size: 15px;
@@ -833,7 +833,7 @@ button:focus {
 	margin-bottom: 24px;
 }
 
-.mu-contact-form .form-group textarea{
+.mu-contato-form .form-group textarea{
 	color: #333;
 	background: transparent;
 	border: 1px solid #ccc;
@@ -843,34 +843,34 @@ button:focus {
 	height: 190px;
 }
 
-.mu-contact-form .form-control:focus {
+.mu-contato-form .form-control:focus {
 	background-color: #fff;
     outline: 0;
     box-shadow: none;    
 } 
 
-.mu-contact-form .form-control::-webkit-input-placeholder {
+.mu-contato-form .form-control::-webkit-input-placeholder {
 	color: #888;
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control:-moz-placeholder { /* Firefox 18- */
+.mu-contato-form .form-control:-moz-placeholder { /* Firefox 18- */
 	color: #888;
 	font-size: 15px; 
 }
 
-.mu-contact-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+.mu-contato-form .form-control::-moz-placeholder {  /* Firefox 19+ */
 	color: #888;
 	font-size: 15px;
 }
 
-.mu-contact-form .form-control:-ms-input-placeholder {  
+.mu-contato-form .form-control:-ms-input-placeholder {  
 	color: #888;
 	font-size: 15px;
 }
 
-.mu-contact-form .button-default::after,
-.mu-contact-form .button-default > span {
+.mu-contato-form .button-default::after,
+.mu-contato-form .button-default > span {
 	padding: 12px 40px;  
 }
 
@@ -991,7 +991,7 @@ button:focus {
 		margin: 10px 12px 5px;
 	}
 
-	.mu-author-info {
+	.mu-autora-info {
 		margin-top: 0px;
 	}
 
@@ -1040,7 +1040,7 @@ button:focus {
 		width: 100%;
 	}
 
-	.mu-contact-right {
+	.mu-contato-right {
 		margin-top: 50px;
 	}
 	
@@ -1094,11 +1094,11 @@ button:focus {
 		padding: 100px 0 60px;
 	}
 
-	.mu-author-info {
+	.mu-autora-info {
 		margin-top: 30px;
 	}
 
-	.mu-contact-content {
+	.mu-contato-content {
 		padding: 0 10%;
 	}
 	
@@ -1171,7 +1171,7 @@ button:focus {
 		height: 250px;
 	}
 
-	.mu-contact-content {
+	.mu-contato-content {
 		padding: 0 5%;
 	}
 
@@ -1186,7 +1186,7 @@ button:focus {
 		line-height: 35px;
 	}
 
-	.mu-contact-form button {
+	.mu-contato-form button {
 		width: 100%;
 	}
 	
