@@ -1,0 +1,164 @@
+/*--------------------*/
+/* Novo Estilo para os Capítulos (Quadrado) */
+/*--------------------*/
+
+/* Garante o fundo claro para o bloco de capítulos */
+.capitulos-container {
+    padding: 60px 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Garante espaçamento entre os capítulos */
+    gap: 20px; /* Distância entre os capítulos */
+    margin: 0 auto;
+    max-width: 1200px; /* Limita a largura máxima */
+}
+
+/* Estilo do capítulo (quadrado) */
+.capitulo-item {
+    background-color: #fff;
+    width: 220px; /* Define uma largura fixa */
+    height: 300px; /* Define uma altura fixa */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: #1c1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de hover para aumentar o capítulo */
+.capitulo-item:hover {
+    transform: scale(1.05); /* Aumenta de tamanho ao passar o mouse */
+}
+
+/* Estilo dos ícones (substituídos por imagens PNG) */
+.capitulo-icon {
+    width: 60px; /* Tamanho fixo para os ícones */
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.capitulo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do quadrado */
+}
+
+/* Estilo do título do capítulo */
+.capitulo-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #1c1b1b;
+}
+
+/* Estilo da descrição do capítulo */
+.capitulo-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+    white-space: normal;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .capitulos-container {
+        flex-direction: column; /* Alinha os capítulos em uma coluna em telas menores */
+        align-items: center; /* Alinha os capítulos no centro */
+    }
+
+    .capitulo-item {
+        width: 90%; /* Os capítulos ocupam 90% da largura */
+        max-width: 300px; /* Limita a largura máxima */
+        height: auto; /* Ajusta a altura conforme o conteúdo */
+    }
+}
+
+
+/*--------------------*/
+/* BOOK OVERVIEW */
+/*--------------------*/
+
+#mu-book-overview {
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.mu-book-overview-area {
+    padding: 100px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.mu-heading-area {
+    text-align: center;
+    padding: 0 10%;
+    width: 100%;
+}
+
+.mu-heading-title {
+    color: #d52048; /* Preserva o título original */
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mu-header-dot {
+    height: 3px;
+    width: 100px;
+    background-color: #1c1b1b;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.mu-book-overview-content .row {
+    display: flex; /* Define layout flexível */
+    justify-content: center; /* Centraliza os blocos horizontalmente */
+    gap: 20px; /* Espaçamento uniforme entre os blocos */
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    margin: 0 auto;
+    max-width: 1200px; /* Limita a largura total do contêiner */
+}
+
+
+.mu-book-overview-single {
+    width: 300px; /* Largura fixa para cada bloco */
+    text-align: center;
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    box-sizing: border-box; /* Inclui padding no tamanho total */
+    margin: 10px 0;
+    color: #1c1b1b; /* Define a cor padrão para texto */
+}
+
+.mu-book-overview-icon-box {
+    font-size: 25px;
+    color: #ff0000; /* Define a cor azul apenas para os ícones */
+    margin-bottom: 20px;
+    display: inline-block;
+    border: none; /* Remove qualquer borda ao redor dos ícones */
+    background: none; /* Remove fundo ao redor dos ícones */
+}
+
+.mu-book-overview-single h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #1c1b1b; /* Mantém a cor original do título */
+}
+
+.mu-book-overview-single p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666; /* Define uma cor neutra para o texto */
+    margin: 0; /* Remove margens extras */
+    white-space: normal; /* Garante que o texto seja exibido corretamente */
+}
